@@ -3,15 +3,21 @@ import FeaturedDestinations from "@/components/FeaturedDestinations";
 import HowItWorks from "@/components/HowItWorks";
 import Features from "@/components/Features";
 import CallToAction from "@/components/CallToAction";
+import Navigation from "@/components/Navigation";
+import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
-    <div className="min-h-screen">
-      <Hero />
-      <FeaturedDestinations />
-      <HowItWorks />
-      <Features />
-      <CallToAction />
+    <div className="min-h-screen flex flex-col">
+      <Navigation />
+      <main className="flex-grow">
+        <Hero />
+        <FeaturedDestinations />
+        <HowItWorks />
+        <Features />
+        <CallToAction />
+      </main>
+      <Footer />
     </div>
   );
 };
