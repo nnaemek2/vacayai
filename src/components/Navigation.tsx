@@ -9,7 +9,7 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <Link to="/" className="flex-shrink-0">
-              <span className="text-2xl font-bold text-primary">vacaygenius</span>
+              <span className="text-2xl font-bold text-primary">vacayai</span>
             </Link>
             <div className="hidden md:block ml-10">
               <div className="flex items-center space-x-4">
